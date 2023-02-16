@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+nav{
+    /* position: absolute; */
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+#first{
+    color:rgb(10, 114, 146);
+}
+#green{
+    position: relative;
+    right: 25px;
+
+}
+.head{
+    margin: 0px; 
+    /* margin-left: 255px;  */
+    font-family: 'Julee', cursive; 
+    color: rgb(158, 212, 212); 
+    font-size: 40px;
+}
+#container1{
+    background-color: rgb(29, 31, 30);
+    color: white;
+    display: flex;
+}
+#image{
+   padding: 55px;
+}
+
+.container2{
+    background-color: aquamarine;
+}
+.songItem{
+    padding: 5px 35px;
+    background-color: rgb(19, 17, 17);
+    color: white;
+    height: 75px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.songName{
+    font-size: 20px;
+}
+.songItem:hover{
+    background-color: rgb(37, 35, 35);
+}
+.songItemplay{
+    margin: 0px 20px;
+}
+.bottom{
+    height: 11vh;
+    position: sticky;
+    background-color: black;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons i{
+   margin: 5px 14px;
+}
+#myprogressBar{
+    width: 80vw;
+}
